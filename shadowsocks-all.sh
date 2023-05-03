@@ -1186,7 +1186,7 @@ install_shadowsocks(){
     disable_selinux
     install_select
     install_prepare
-    install_dependencies
+    # install_dependencies
     download_files
     config_shadowsocks
     if check_sys packageManager yum; then
